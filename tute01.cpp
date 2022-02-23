@@ -28,3 +28,15 @@ int main()
     printf("Length in inches is %f \n", inches);
     return 0;
 }  
+#include<stdio.h>
+int main(void)
+{
+  float cm, inches;
+  std::cout <<"Enter a lenth in cm";
+  std::cin >> cm;
+  inches = cm / 2.54;
+  std :: cont << "Lenth in inches is" << inches;
+  return 0;
+}
+
+
