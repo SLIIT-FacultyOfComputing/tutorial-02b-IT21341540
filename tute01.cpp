@@ -28,7 +28,7 @@ int main()
     printf("Length in inches is %f \n", inches);
     return 0;
 }  
-#include<stdio.h>
+#include<iostream>
 int main(void)
 {
   float cm, inches;
